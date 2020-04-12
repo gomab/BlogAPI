@@ -1,0 +1,10 @@
+1. See all routes
+    $  php bin/console debug:router
+
+
+
+-------------------------
+
+Etape1: Create Controllers
+    - Set Methods
+    - Set Routes

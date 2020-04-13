@@ -36,6 +36,15 @@
         config/packages/easy_admin.yaml
 
 
+-------API---------
+
+13. Install API Platform and create the first resource
+    $ composer require api
+
+14. Add @ApiResource() to entity (BlogPost)
+
+    config/packages/api_platform.yaml, config/packages/nelmio_cors.yaml, config/routes/api_platform.yaml
+
 -------------------------
 
 Etape1: Create Controllers ans routing

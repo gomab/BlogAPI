@@ -141,6 +141,14 @@
 32. Install faker
     $ composer require --dev fzaninotto/faker
 
+
+33. add to Comment entity
+       /**
+         * @ORM\ManyToOne(targetEntity="App\Entity\User", inversedBy="comments")
+         * @ORM\JoinColumn(nullable=false)
+         */
+        private $blogPost;
+
 -------------------------
 
 Etape1: Create Controllers ans routing

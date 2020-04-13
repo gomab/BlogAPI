@@ -12,7 +12,7 @@
 
 5. Make migration to add that in db
 
-6. Install Serializer (covert Json to class)
+6. Install Serializer (convert Json to class)
     $ composer require serializer
 
 8. add to --> config/packages/test/framework.yaml

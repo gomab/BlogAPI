@@ -4,9 +4,11 @@ namespace App\Controller;
 
 use App\Entity\BlogPost;
 use Doctrine\ORM\EntityManagerInterface;
+use Sensio\Bundle\FrameworkExtraBundle\Configuration\ParamConverter;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Serializer\Serializer;
 
@@ -42,21 +44,23 @@ class BlogController extends AbstractController
     }
 
     /**
-     * @Route("/post/{id}", name="blog_by_id", requirements={"id"="\d+"})
+     * @Route("/post/{id}", name="blog_by_id", requirements={"id"="\d+"}, methods={"GET"})
+     * @ParamConverter("post", class="App:BlogPost")
      */
-    public function post($id){
-        return $this->json(
-           $this->getDoctrine()->getRepository(BlogPost::class)->find($id)
-        );
+    public function post($post){
+        // It's a same as doing find($id) on repository
+        return $this->json($post);
     }
 
     /**
-     * @Route("/post/{slug}", name="blog_by_slug")
+     * @Route("/post/{slug}", name="blog_by_slug", methods={"GET"})
+     * The below annotation is not required when $post is typehinted with BlogPost
+     * and route parameter name matches any field on the BlogPost entity
+     * @ParamConverter("post", class="App:BlogPost", options={"mapping": {"slug": "slug"}})
      */
-    public function postBySlug($slug){
-        return $this->json(
-           $this->getDoctrine()->getRepository(BlogPost::class)->findOneBy(['slug' => $slug])
-        );
+    public function postBySlug(BlogPost $post){
+        // same as doing $this->getDoctrine()->getRepository(BlogPost::class)->findOneBy(['slug' => $slug])
+        return $this->json($post);
     }
 
     /**
@@ -79,5 +83,18 @@ class BlogController extends AbstractController
         $em->flush();
 
         return $this->json($blogPost);
+    }
+
+    /**
+     * @Route("/post/{id}", name="blog_delete", methods={"DELETE"})
+     * @param BlogPost $post
+     * @return JsonResponse
+     */
+    public function delete(BlogPost $post){
+        $em = $this->getDoctrine()->getManager();
+        $em->remove($post);
+        $em->flush();
+
+        return new JsonResponse(null, Response::HTTP_NO_CONTENT);
     }
 }

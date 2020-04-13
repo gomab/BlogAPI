@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f7795a6-1402-42e7-ab5c-a95ee62138b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MAN" beforeDir="false" afterPath="$PROJECT_DIR$/MAN" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/BlogPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,13 +43,6 @@
         <item name="SQLite - app.db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="SQLite - app.db" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="blog_post: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -211,12 +197,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:SQLite - app.db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -238,6 +219,7 @@
       <workItem from="1586696829333" duration="295000" />
       <workItem from="1586728256231" duration="1318000" />
       <workItem from="1586730261094" duration="14290000" />
+      <workItem from="1586761492427" duration="3823000" />
     </task>
     <servers />
   </component>
@@ -253,10 +235,14 @@
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state x="637" y="362" width="645" height="394" key="#com.intellij.fileTypes.FileTypeChooser/0.31.1920.1049@0.31.1920.1049" timestamp="1586689827253" />
-    <state x="735" y="277" width="449" height="565" key="#com.intellij.ide.util.MemberChooser" timestamp="1586731160383">
+    <state x="735" y="277" width="449" height="565" key="#com.intellij.ide.util.MemberChooser" timestamp="1586764129012">
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
-    <state x="735" y="277" width="449" height="565" key="#com.intellij.ide.util.MemberChooser/0.31.1920.1049@0.31.1920.1049" timestamp="1586731160383" />
+    <state x="735" y="277" width="449" height="565" key="#com.intellij.ide.util.MemberChooser/0.31.1920.1049@0.31.1920.1049" timestamp="1586764129012" />
+    <state x="152" y="31" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1586762479383">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="152" y="31" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.31.1920.1049@0.31.1920.1049" timestamp="1586762479383" />
     <state x="693" y="316" width="534" height="487" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1586735539419">
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
@@ -277,5 +263,16 @@
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state x="620" y="385" key="com.intellij.ide.util.TipDialog/0.31.1920.1049@0.31.1920.1049" timestamp="1586730261769" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/src/Entity/Comment.php</url>
+          <line>78</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

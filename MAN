@@ -45,6 +45,84 @@
 
     config/packages/api_platform.yaml, config/packages/nelmio_cors.yaml, config/routes/api_platform.yaml
 
+
+
+15. Make entity User and Comment
+
+16. Delete methods getAuthor and setAuthor in BlogPost entity
+
+17. Make private $author relation ManyToOne with User entity
+      /**
+         * @ORM\ManyToOne(targetEntity="App\Entity\User", inversedBy="posts")
+         * @ORM\JoinColumn(nullable=false)
+         */
+        private $author;
+
+
+18. Add $author to Comment entity
+    /**
+         * @ORM\ManyToOne(targetEntity="App\Entity\User", inversedBy="comments")
+         * @ORM\JoinColumn(nullable=false)
+         */
+        private $author;
+
+
+19. add to User entity
+    /**
+         * @ORM\OneToMany(targetEntity="App\Entity\BlogPost", mappedBy=""author")
+         */
+        private $posts;
+
+        /**
+         * @ORM\OneToMany(targetEntity="App\Entity\Comment", mappedBy=""author")
+         */
+        private $comments;
+
+20.  Add to User entity
+      public function __construct()
+        {
+            $this->posts = new ArrayCollection();
+            $this->comments = new ArrayCollection();
+        }
+
+21. Add getter posts & comments to User
+        /**
+         * @return ArrayCollection
+         */
+        public function getPosts(): ArrayCollection
+        {
+            return $this->posts;
+        }
+
+        /**
+         * @return ArrayCollection
+         */
+        public function getComments(): ArrayCollection
+        {
+            return $this->comments;
+        }
+
+
+22. Add getter and setter author to BlogPost entity, and Comment entity
+     /**
+         * @return User
+         */
+        public function getAuthor(): User
+        {
+            return $this->author;
+        }
+
+          /**
+             * @param User $author
+             * @return Comment
+             */
+            public function setAuthor(User $author): self
+            {
+                $this->author = $author;
+
+                return $this;
+            }
+23. Migrate
 -------------------------
 
 Etape1: Create Controllers ans routing

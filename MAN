@@ -1,10 +1,28 @@
 1. See all routes
     $  php bin/console debug:router
 
+2. Make entity (BlogPost)
+    $ php bin/console make:entity
+
+3. Migration
+
+4. Add property to BlogPost entity
+    private $slug
+    add Getter and Setter
+
+5. Make migration to add that in db
+
+6. Install Serializer (covert Json to class)
+    $ composer require serializer
+
+8. add to --> config/packages/test/framework.yaml
+        property_info:
+            enabled: true
+
 
 
 -------------------------
 
-Etape1: Create Controllers
+Etape1: Create Controllers ans routing
     - Set Methods
     - Set Routes

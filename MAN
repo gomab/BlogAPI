@@ -28,6 +28,14 @@
 10. Load fixtures
     $ php bin/console doctrine:fixtures:load
 
+
+11. Easy admin
+    $ composer require admin
+
+12. Configure easy admin
+        config/packages/easy_admin.yaml
+
+
 -------------------------
 
 Etape1: Create Controllers ans routing

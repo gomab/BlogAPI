@@ -122,7 +122,25 @@
 
                 return $this;
             }
-23. Migrate
+23. Migrate to database
+
+25. Fix Fixtures with references (for relations) and load
+    $ php bin/console doctrine:fixtures:load
+
+
+27. Add implements UserInterface to User entity and generate methods
+
+29. Setup new methods implents in User entity
+
+30. setup encoder to security.yaml
+
+31. Load fixtures
+    $ php bin/console doctrine:fixtures:load -q
+
+
+32. Install faker
+    $ composer require --dev fzaninotto/faker
+
 -------------------------
 
 Etape1: Create Controllers ans routing

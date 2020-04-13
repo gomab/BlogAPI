@@ -21,6 +21,13 @@
 
 
 
+
+9. Add fixtures
+    $ composer require --dev doctrine/doctrine-fixtures-bundle
+
+10. Load fixtures
+    $ php bin/console doctrine:fixtures:load
+
 -------------------------
 
 Etape1: Create Controllers ans routing

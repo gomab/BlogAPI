@@ -149,6 +149,14 @@
          */
         private $blogPost;
 
+
+
+7. EventSubscriber (hashing password)
+     Configurate manualy service
+
+        $php bin/console debug:container PasswordHashSubscriber
+
+
 -------------------------
 
 Etape1: Create Controllers ans routing

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1f7795a6-1402-42e7-ab5c-a95ee62138b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MAN" beforeDir="false" afterPath="$PROJECT_DIR$/MAN" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -192,12 +193,27 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Agence" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:SQLite - app.db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:SQLite - app.db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@386eabd5" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -221,7 +237,7 @@
       <workItem from="1586730261094" duration="14290000" />
       <workItem from="1586761492427" duration="11401000" />
       <workItem from="1587024486412" duration="318000" />
-      <workItem from="1587024882500" duration="3841000" />
+      <workItem from="1587024882500" duration="10629000" />
     </task>
     <servers />
   </component>
@@ -253,6 +269,10 @@
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state x="743" y="317" width="434" height="487" key="FileChooserDialogImpl/0.31.1920.1049@0.31.1920.1049" timestamp="1586735853379" />
+    <state x="603" y="369" width="713" height="381" key="NewPhpClassDialog" timestamp="1587031547185">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="603" y="369" width="713" height="381" key="NewPhpClassDialog/0.31.1920.1049@0.31.1920.1049" timestamp="1587031547185" />
     <state x="756" y="482" width="407" height="154" key="NewPhpFileDialog" timestamp="1586688473162">
       <screen x="0" y="31" width="1920" height="1049" />
     </state>

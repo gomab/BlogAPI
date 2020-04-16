@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="1f7795a6-1402-42e7-ab5c-a95ee62138b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MAN" beforeDir="false" afterPath="$PROJECT_DIR$/MAN" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/AppFixtures.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/BlogPost.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/BlogPost.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Comment.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Comment.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +219,9 @@
       <workItem from="1586696829333" duration="295000" />
       <workItem from="1586728256231" duration="1318000" />
       <workItem from="1586730261094" duration="14290000" />
-      <workItem from="1586761492427" duration="10704000" />
+      <workItem from="1586761492427" duration="11401000" />
+      <workItem from="1587024486412" duration="318000" />
+      <workItem from="1587024882500" duration="1527000" />
     </task>
     <servers />
   </component>
@@ -262,10 +261,10 @@
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state x="542" y="242" width="1022" height="733" key="SettingsEditor/0.31.1920.1049@0.31.1920.1049" timestamp="1586688360492" />
-    <state x="620" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1586730261769">
+    <state x="620" y="385" key="com.intellij.ide.util.TipDialog" timestamp="1587024536347">
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
-    <state x="620" y="385" key="com.intellij.ide.util.TipDialog/0.31.1920.1049@0.31.1920.1049" timestamp="1586730261769" />
+    <state x="620" y="385" key="com.intellij.ide.util.TipDialog/0.31.1920.1049@0.31.1920.1049" timestamp="1587024536347" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

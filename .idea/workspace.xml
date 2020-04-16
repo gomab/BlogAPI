@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="1f7795a6-1402-42e7-ab5c-a95ee62138b7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MAN" beforeDir="false" afterPath="$PROJECT_DIR$/MAN" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,17 +202,7 @@
       <list>
         <serviceView>
           <treeState>
-            <expand>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:SQLite - app.db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="root:SQLite - app.db" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@386eabd5" type="9fbbdea:ServiceModel$ServiceNode" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </treeState>
         </serviceView>
@@ -237,7 +226,7 @@
       <workItem from="1586730261094" duration="14290000" />
       <workItem from="1586761492427" duration="11401000" />
       <workItem from="1587024486412" duration="318000" />
-      <workItem from="1587024882500" duration="10629000" />
+      <workItem from="1587024882500" duration="11801000" />
     </task>
     <servers />
   </component>

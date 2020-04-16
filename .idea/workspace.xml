@@ -226,7 +226,7 @@
       <workItem from="1586730261094" duration="14290000" />
       <workItem from="1586761492427" duration="11401000" />
       <workItem from="1587024486412" duration="318000" />
-      <workItem from="1587024882500" duration="13735000" />
+      <workItem from="1587024882500" duration="14091000" />
     </task>
     <servers />
   </component>
@@ -274,6 +274,10 @@
       <screen x="0" y="31" width="1920" height="1049" />
     </state>
     <state x="620" y="385" key="com.intellij.ide.util.TipDialog/0.31.1920.1049@0.31.1920.1049" timestamp="1587024536347" />
+    <state x="623" y="263" width="672" height="678" key="search.everywhere.popup" timestamp="1587042723915">
+      <screen x="0" y="31" width="1920" height="1049" />
+    </state>
+    <state x="623" y="263" width="672" height="678" key="search.everywhere.popup/0.31.1920.1049@0.31.1920.1049" timestamp="1587042723915" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

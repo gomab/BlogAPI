@@ -1,0 +1,50 @@
+[
+  {
+    "height": 80,
+    "width": 70,
+    "type": "box",
+    "color": "#aabb00"
+  },
+  {
+    "height": 90,
+    "width": 80,
+    "type": "picture",
+    "url": "https://medias.maisonsdumonde.com/image/upload/q_auto,f_auto/w_1000/img/statue-flamant-rose-en-plastique-rose-h-54-cm-flamingo-1000-12-9-157449_4.jpg"
+  },
+  {
+    "height": 70,
+    "width": 90,
+    "type": "box",
+    "color": "#00aabb"
+  },
+  {
+    "height": 100,
+    "width": 100,
+    "type": "picture",
+    "url": "https://www.acrodeal.com/images_fiches/produit_maxi/F7156.jpg"
+  },
+  {
+    "height": 180,
+    "width": 80,
+    "type": "box",
+    "color": "#aa00bb"
+  },
+  {
+    "height": 90,
+    "width": 80,
+    "type": "picture",
+    "url": "https://talkmusictome.files.wordpress.com/2013/07/3.jpg"
+  },
+  {
+    "height": 80,
+    "width": 80,
+    "type": "box",
+    "color": "#dddd00"
+  },
+  {
+    "height": 90,
+    "width": 280,
+    "type": "picture",
+    "url": "https://i.ytimg.com/vi/tGjJep40VhA/maxresdefault.jpg"
+  }
+]
